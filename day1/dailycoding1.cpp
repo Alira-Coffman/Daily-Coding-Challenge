@@ -41,10 +41,10 @@ void addToK(int arr[20], int size, int k)
         //find value looking for
         int temp = k  - arr[i];
         //does it exist in the array
-        for(int k =i+1; k < size; k++)
+        for(int l =i+1; l < size; l++)
         {
-            if(arr[k] == temp)
-                cout << "Values in list that add to " << k << " are " << arr[i] << " and " << arr[k]<<endl;
+            if(arr[l] == temp)
+                cout << "Values in list that add to  " << k << " are " << arr[i] << " and " << arr[l]<<endl;
         }
 
     }
